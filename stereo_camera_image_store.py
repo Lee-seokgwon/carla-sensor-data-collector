@@ -2,10 +2,8 @@ import carla
 import os
 import numpy as np
 from datetime import datetime
-import time
 import cv2
 import pygame
-import sys
 
 def save_image(image, camera_type):
     save_dir = f'./{camera_type}_images'
